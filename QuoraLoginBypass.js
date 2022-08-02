@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name        Quora Login Bypass
-// @namespace   https://www.quora.com/
+// @namespace   https://github.com/
 // @match       https://www.quora.com/*
 // @grant       none
 // @version     1.0
 // @author      GlobBruh
-// @description Allows you to view multiple Quora pages without logging in. quora.com/test -> quora.com/test?share=1
+// @description Allows you to view multiple Quora pages without logging in or signing up.
 // ==/UserScript==
 
 var url = window.location.href;
