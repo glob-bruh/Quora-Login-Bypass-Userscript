@@ -30,9 +30,14 @@ for (let i = 0, constLen = whitelistURL.length ; i < constLen ; i++) {
         }
     }
 }
-if (changeURL == false || url.indexOf("?share=1") != -1) {
+if (changeURL == false || url.indexOf("share=1") != -1) {
     return false
 } else {
-    url += "?share=1";
+    if (url.indexOf("?") != -1) {
+        url += "&share=1";
+    } else {
+        url += "?share=1";
+    }
+
     window.location.replace(url)
 }
