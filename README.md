@@ -2,7 +2,7 @@
 
 ## Purpose:
 
-This userscript bypasses the prompt to login or signup to Quora by automatically adding `?share=1` to the URL. 
+This userscript bypasses the prompt to login or signup to [Quora](https://www.quora.com/) by automatically adding `share=1` as an argument to the URL. 
 
 ## Setup: 
 
