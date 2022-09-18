@@ -4,7 +4,11 @@
 // @match       https://www.quora.com/*
 // @grant       none
 // @version     1.0
+// @downloadURL https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/raw/main/QuoraLoginBypass.user.js
+// @updateURL   https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/raw/main/QuoraLoginBypass.user.js
 // @author      https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/graphs/contributors
+// @homepage    https://github.com/glob-bruh/Quora-Login-Bypass-Userscript
+// @supportURL  https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/issues
 // @description Allows you to view multiple Quora pages without logging in or signing up.
 // ==/UserScript==
 
