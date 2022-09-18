@@ -1,23 +1,26 @@
 // ==UserScript==
 // @name        Quora Login/Signup Prompt Bypass
-// @namespace   https://github.com/
+// @description Allows you to view multiple Quora pages without logging in or signing up.
+// @version     1.1
 // @match       https://www.quora.com/*
+// @namespace   https://github.com/
 // @grant       none
-// @version     1.0
 // @downloadURL https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/raw/main/QuoraLoginBypass.user.js
 // @updateURL   https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/raw/main/QuoraLoginBypass.user.js
 // @author      https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/graphs/contributors
 // @homepage    https://github.com/glob-bruh/Quora-Login-Bypass-Userscript
 // @supportURL  https://github.com/glob-bruh/Quora-Login-Bypass-Userscript/issues
-// @description Allows you to view multiple Quora pages without logging in or signing up.
+// @run-at      document-start
+// @icon        logo.png
 // ==/UserScript==
 
 // Whitelisted URL's:
 const whitelistURL = [
     "https://www.quora.com/",
-    "https://www.quora.com/about*",
-    "https://www.quora.com/careers*",
-    "https://www.quora.com/press*"
+    "https://www.quora.com/about/*",
+    "https://www.quora.com/careers/*",
+    "https://www.quora.com/press/*",
+    "https://www.quora.com/profile/*"
 ]
 
 var url = window.location.href;

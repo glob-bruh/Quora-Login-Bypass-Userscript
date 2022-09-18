@@ -16,7 +16,8 @@ OR alternatively, you can install from link.
 2) Visit the raw version of the JavaScript file in this repo and copy the link.
 3) Go to the userscript dashboard and install from link.
 
-## Contributing
+## Contributing:
+
 Contributions are welcome, make sure to increase the `@version` on line 6 so automatic updates are triggered after your pull request gets merged.
 
 ## License:
