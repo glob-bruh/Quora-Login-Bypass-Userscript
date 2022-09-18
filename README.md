@@ -16,6 +16,9 @@ OR alternatively, you can install from link.
 2) Visit the raw version of the JavaScript file in this repo and copy the link.
 3) Go to the userscript dashboard and install from link.
 
+## Contributing
+Contributions are welcome, make sure to increase the `@version` on line 6 so automatic updates are triggered after your pull request gets merged.
+
 ## License:
 
 Licensed under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
